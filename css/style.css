@@ -238,3 +238,46 @@ a{
   grid-template-columns: 448px 640px;
   grid-gap: 32px;
 }
+
+.about__title{
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.about__text{
+  margin-bottom: 34px;
+}
+
+.about__link{
+  text-decoration: underline;
+  color: #C4C4C4;
+  line-height: 19px;
+}
+
+.about__popup{
+  background-image: url(../images/video-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery{
+  padding: 50px 0 105px;
+  background-color: #886239;
+  color: #fff;
+}
+
+.gallery__top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.gallery__link{
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+}

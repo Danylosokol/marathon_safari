@@ -14,4 +14,7 @@ $(function(){
     nextArrow:
       '<button type="button" class="slick-btn slick-next"> <img src="images/arrow-right.svg" alt=""> </button>',
   });
+  $('.menu__btn').on('click', function(){
+    $('.menu__list').toggleClass('menu__list--active');
+  })
 });
